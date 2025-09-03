@@ -1,0 +1,63 @@
+# About the dataset:
+
+The dataset contains over 14,000 tweets collected over a 7-day period related to major US airlines. It’s sourced from Twitter and includes the tweet text, timestamp, airline mentioned, hashtags, and sentiment labels (Positive, Negative, Neutral).
+
+https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+
+
+
+# How I Cleaned the Data:
+
+1. Removed extra columns – I deleted columns like IDs, usernames, and gold labels that were not useful.
+
+2. Cleaned the tweets – I removed:
+
+ - @mentions
+
+ - links (like https://…)
+
+ - emojis
+
+ - special characters (#, &, etc.)
+
+ - stopwords (like “the”, “is”, “at”)
+
+3. Made text consistent – I converted all text to lowercase.
+
+4. Created new columns – I added word count, character length, hashtag count, and emoji count for each tweet.
+
+5. Kept what matters – I kept the sentiment labels (positive, negative, neutral) because they are the target for my analysis in Power BI.
+
+
+
+# About the Project:
+
+I built a professional Twitter sentiment analysis dashboard end-to-end, turning messy social data into clear insights to help businesses understand public opinion and make data-driven decisions.
+
+
+🔹 Page 1: US Airlines Twitter Sentiment Dashboard
+
+Insights:
+
+ - Tweet Volume → ~14.5K tweets in 7 days → high engagement.
+
+ - Sentiment Split → 63% negative, 21% neutral, only 16% positive → passengers are highly dissatisfied.
+
+ - Sentiment Score = –46.6% → Overall poor brand perception for US airlines.
+
+ - Top Hashtags → “fail”, “customerservice”, “neveragain” dominate → complaints are about service, cancellations, delays.
+
+ - Time Filter → recruiter can see daily changes → some spikes in negativity (likely due to incidents).
+
+
+🔹 Page 2: Airline Sentiment Analysis
+
+Insights:
+
+ - Sentiment per Airline → United & US Airways have the most negative tweets. Southwest has relatively more positive tweets.
+
+ - Most Positive Airline → Southwest → better at customer engagement compared to competitors.
+
+ - Top Hashtags per Airline → Airlines like JetBlue & United are tagged in customer complaints → signals brand-specific issues.
+
+ - Sentiment Trend per Airline → A large spike around Feb 22 → possibly an operational disruption across multiple airlines.
