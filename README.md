@@ -26,6 +26,8 @@ The goal was to build an **interactive Power BI dashboard** to:
 ## 📊 Dashboard Pages  
 
 ### **Page 1: US Airlines Twitter Sentiment Dashboard**  
+![Dashboard Page 1](images/page1.png)  
+
 - **KPIs**: Total Tweets, Positive, Negative, Neutral, Sentiment Score  
 - **Donut Chart**: Sentiment Distribution  
 - **Top Hashtags**: Trending topics like `#fail`, `#customerservice`, `#neveragain`  
@@ -39,6 +41,8 @@ The goal was to build an **interactive Power BI dashboard** to:
 ---
 
 ### **Page 2: Airline Sentiment Analysis**  
+![Dashboard Page 2](images/page2.png)  
+
 - **Sentiment per Airline**: Compare positive, neutral, and negative tweets  
 - **Most Positive Airline**: Southwest shows the best sentiment balance  
 - **Top Hashtags per Airline**: Issues tied to each airline  
@@ -71,4 +75,3 @@ The goal was to build an **interactive Power BI dashboard** to:
 - **Power BI** → Dashboard design & DAX  
 - **Dataset** → Kaggle: Twitter US Airline Sentiment  
 - **Techniques** → Sentiment scoring, KPI design, time-series analysis, hashtag analysis  
-
